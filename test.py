@@ -42,7 +42,7 @@ axs[0].set_title("Clusterization with KMeans method:")
 axs[1].scatter(x=X[:,0], y=X[:,1],c=gmprediction)
 axs[1].scatter(x=gmcenters[:,0],y=gmcenters[:,1,],marker='X',color="r")
 axs[1].set_title("Clusterization with GaussianMixture method:")
-plt.show()
+plt.savefig('clusters.png')
 
 
 
